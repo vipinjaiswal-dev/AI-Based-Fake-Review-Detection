@@ -208,7 +208,7 @@ window.onload = function(){
   }
 };
 
-// ================= SEARCH =================
+================= SEARCH =================
 function searchProduct(){
   let val = document.getElementById("search").value.toLowerCase();
   let cards = document.querySelectorAll(".card");
