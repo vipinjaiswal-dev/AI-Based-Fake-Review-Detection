@@ -36,10 +36,29 @@ db = mysql.connector.connect(
 cursor = db.cursor()
 
 # ================= LOAD MODELS =================
-lr = pickle.load(open("models/lr.pkl", "rb"))
-rf = pickle.load(open("models/rf.pkl", "rb"))
-xgb = pickle.load(open("models/xgb.pkl", "rb"))
-vectorizer = pickle.load(open("models/vectorizer.pkl", "rb"))
+# lr = pickle.load(open("models/lr.pkl", "rb"))
+# rf = pickle.load(open("models/rf.pkl", "rb"))
+# xgb = pickle.load(open("models/xgb.pkl", "rb"))
+# vectorizer = pickle.load(open("models/vectorizer.pkl", "rb"))
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+lr = pickle.load(
+    open(os.path.join(BASE_DIR, "models/lr.pkl"), "rb")
+)
+
+rf = pickle.load(
+    open(os.path.join(BASE_DIR, "models/rf.pkl"), "rb")
+)
+
+xgb = pickle.load(
+    open(os.path.join(BASE_DIR, "models/xgb.pkl"), "rb")
+)
+
+vectorizer = pickle.load(
+    open(os.path.join(BASE_DIR, "models/vectorizer.pkl"), "rb")
+)
+
 
 # ================= CATEGORY MAP =================
 product_categories = {
