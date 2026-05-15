@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> AI Based Fake Review Detection</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- 🔥 NAVBAR -->
+<div class="navbar">
+  <h2>🛒 E-Shop AI</h2>
+    <!-- search bar -->
+<input type="text" id="search" placeholder="Search products..." onkeyup="searchProduct()">
+  <div>
+    <a href="index.html">Home</a>
+     
+    <a href="admin.html">Admin</a>
+    <button onclick="toggleDark()">🌙</button>
+    <button onclick="logout()">Logout</button>
+  </div>
+ 
+</div>
+
+<div class="filters">
+  <button onclick="filterCategory('all')">All</button>
+  <button onclick="filterCategory('Home')">Home</button>
+  <button onclick="filterCategory('electronics')">Electronics</button>
+  <button onclick="filterCategory('fashion')">Fashion</button>
+  <button onclick="filterCategory('Accessories')">Accessories</button>
+
+</div>
+
+<!-- 🔥 HERO -->
+<div class="hero">
+  <h1>Welcome to Smart Shopping</h1>
+  <p>AI Powered Fake Review Detection</p>
+</div>
+ 
+ 
+<!-- 🔥 PRODUCTS -->
+<div id="products" class="grid"></div>
+
+<script src="script.js"></script>
+</body>
+</html>

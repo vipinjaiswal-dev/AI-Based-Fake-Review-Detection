@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Dashboard</title>
+
+  <style>
+    body{
+      font-family: Arial;
+      background:#f4f4f4;
+      margin:0;
+    }
+
+    .navbar{
+      background:#222;
+      color:white;
+      padding:15px;
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+    }
+
+    .navbar a{
+      color:white;
+      margin-left:15px;
+      text-decoration:none;
+    }
+
+    h1{
+      text-align:center;
+      margin:20px;
+    }
+
+    table{
+      width:90%;
+      margin:20px auto;
+      border-collapse: collapse;
+      background:white;
+    }
+
+    th, td{
+      padding:10px;
+      border:1px solid #ddd;
+      text-align:center;
+    }
+
+    th{
+      background:#007bff;
+      color:white;
+    }
+
+    tr:nth-child(even){
+      background:#f2f2f2;
+    }
+
+    .fake{
+      color:red;
+      font-weight:bold;
+    }
+
+    .real{
+      color:green;
+      font-weight:bold;
+    }
+
+    .btn{
+      display:block;
+      margin:20px auto;
+      padding:10px 20px;
+      border:none;
+      background:#28a745;
+      color:white;
+      cursor:pointer;
+      border-radius:5px;
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- 🔥 NAVBAR -->
+<div class="navbar">
+  <h2>🛒 Admin Dashboard</h2>
+  <div>
+    <a href="index.html">Home</a>
+    <a href="login.html">Logout</a>
+  </div>
+</div>
+
+<h1>📊 All Reviews</h1>
+
+<!-- 🔥 REFRESH BUTTON -->
+<button class="btn" onclick="loadData()">🔄 Refresh Data</button>
+
+<!-- 🔥 TABLE -->
+<table>
+  <thead>
+    <tr>
+      <th>Product</th>
+      <th>Review</th>
+      <th>Result</th>
+    </tr>
+  </thead>
+
+  <tbody id="t"></tbody>
+</table>
+
+<!-- 🔥 SCRIPT -->
+<script src="script.js"></script>
+
+<script>
+  // Override loadData for styling
+  function loadData(){
+    fetch("http://127.0.0.1:5000/reviews")
+    .then(res => res.json())
+    .then(data => {
+
+      let table = document.getElementById("t");
+      table.innerHTML = "";
+
+      data.forEach(r => {
+
+        let label = r.final == 1 
+          ? '<span class="fake">Fake ❌</span>' 
+          : '<span class="real">Genuine ✅</span>';
+
+        table.innerHTML += `
+          <tr>
+            <td>${r.product}</td>
+            <td>${r.review}</td>
+            <td>${label}</td>
+          </tr>
+        `;
+      });
+
+    })
+    .catch(err => {
+      console.log(err);
+      alert("❌ Error loading data");
+    });
+  }
+
+  // auto load on page open
+  window.onload = loadData;
+</script>
+
+</body>
+</html>

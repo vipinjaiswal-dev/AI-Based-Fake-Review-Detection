@@ -1,0 +1,11 @@
+numpy
+scipy
+joblib
+flask
+flask-cors
+pandas
+scikit-learn
+xgboost
+mysql-connector-python
+gunicorn
+python-dotenv

@@ -1,0 +1,101 @@
+Customer_ID,Product,Category,Review,Label
+1,Mobile,electronics,Good battery performance,0
+2,Mobile,electronics,Excellent screen quality,0
+3,Mobile,electronics,Fast charger works well,0
+4,Mobile,electronics,Smooth touch display,0
+5,Mobile,electronics,Camera quality is amazing,0
+6,Mobile,electronics,Processor speed is fast,0
+7,Mobile,electronics,RAM performance is excellent,0
+8,Mobile,electronics,Battery backup is strong,0
+9,Mobile,electronics,Display resolution is clear,0
+10,Mobile,electronics,Mobile performance is good,0
+11,Mobile,electronics,Nice shirt fabric quality,1
+12,Mobile,electronics,Comfortable cotton fitting,1
+13,Mobile,electronics,Soft cloth material,1
+14,Mobile,electronics,Jeans quality is awesome,1
+15,Mobile,electronics,Perfect shoe fitting,1
+16,Mobile,electronics,Long lasting fragrance,1
+17,Mobile,electronics,Perfume smell is nice,1
+18,Mobile,electronics,Dress material feels soft,1
+19,Mobile,electronics,Fashion style is amazing,1
+20,Mobile,electronics,Tshirt fitting is perfect,1
+21,Laptop,electronics,Fast processor performance,0
+22,Laptop,electronics,Display quality is sharp,0
+23,Laptop,electronics,Excellent battery backup,0
+24,Laptop,electronics,RAM speed is powerful,0
+25,Laptop,electronics,Keyboard performance is smooth,0
+26,Laptop,electronics,Screen brightness is excellent,0
+27,Laptop,electronics,Good gaming performance,0
+28,Laptop,electronics,Processor handles multitasking,0
+29,Laptop,electronics,Charging speed is good,0
+30,Laptop,electronics,Laptop display is clear,0
+31,Laptop,electronics,Nice cotton fabric,1
+32,Laptop,electronics,Perfect jeans fitting,1
+33,Laptop,electronics,Comfortable shoes design,1
+34,Laptop,electronics,Soft tshirt cloth,1
+35,Laptop,electronics,Fragrance smell is awesome,1
+36,Laptop,electronics,Perfume lasts long,1
+37,Laptop,electronics,Dress material quality,1
+38,Laptop,electronics,Fashion wear looks stylish,1
+39,Laptop,electronics,Shirt size is perfect,1
+40,Laptop,electronics,Cotton cloth feels soft,1
+41,TV,electronics,Screen quality is excellent,0
+42,TV,electronics,Sound clarity is amazing,0
+43,TV,electronics,Display colors are vibrant,0
+44,TV,electronics,Picture resolution is sharp,0
+45,TV,electronics,TV performance is smooth,0
+46,TV,electronics,Excellent display brightness,0
+47,TV,electronics,Remote works perfectly,0
+48,TV,electronics,Clear audio quality,0
+49,TV,electronics,Smart features work fast,0
+50,TV,electronics,Screen size is impressive,0
+51,TV,electronics,Nice jeans fitting,1
+52,TV,electronics,Comfortable cotton shirt,1
+53,TV,electronics,Soft fabric material,1
+54,TV,electronics,Perfume fragrance smells good,1
+55,TV,electronics,Shoes fitting is perfect,1
+56,TV,electronics,Dress quality is awesome,1
+57,TV,electronics,Fashion design looks cool,1
+58,TV,electronics,Cloth material feels soft,1
+59,TV,electronics,Tshirt style is nice,1
+60,TV,electronics,Long lasting perfume,1
+61,T-Shirt,fashion,Soft cotton fabric,0
+62,T-Shirt,fashion,Perfect fitting size,0
+63,T-Shirt,fashion,Comfortable cloth material,0
+64,T-Shirt,fashion,Stylish fashion design,0
+65,T-Shirt,fashion,Nice casual wear,0
+66,T-Shirt,fashion,Shirt quality is excellent,0
+67,T-Shirt,fashion,Cloth feels smooth,0
+68,T-Shirt,fashion,Fabric quality is premium,0
+69,T-Shirt,fashion,Cotton material is soft,0
+70,T-Shirt,fashion,Perfect tshirt fitting,0
+71,T-Shirt,fashion,Good battery backup,1
+72,T-Shirt,fashion,Fast charger performance,1
+73,T-Shirt,fashion,Processor speed is powerful,1
+74,T-Shirt,fashion,Display resolution is sharp,1
+75,T-Shirt,fashion,RAM performance is smooth,1
+76,T-Shirt,fashion,Excellent screen quality,1
+77,T-Shirt,fashion,Camera quality is clear,1
+78,T-Shirt,fashion,Mobile performance is good,1
+79,T-Shirt,fashion,Laptop speed is amazing,1
+80,T-Shirt,fashion,TV display is vibrant,1
+81,Shoes,fashion,Comfortable shoe fitting,0
+82,Shoes,fashion,Stylish design looks cool,0
+83,Shoes,fashion,Perfect running comfort,0
+84,Shoes,fashion,Soft inner material,0
+85,Shoes,fashion,Shoe grip is strong,0
+86,Shoes,fashion,Comfort level is excellent,0
+87,Shoes,fashion,Perfect sports wear,0
+88,Shoes,fashion,Shoes quality is premium,0
+89,Shoes,fashion,Design is very stylish,0
+90,Shoes,fashion,Material quality is durable,0
+91,Shoes,fashion,Fast processor performance,1
+92,Shoes,fashion,Good battery backup,1
+93,Shoes,fashion,Excellent charger speed,1
+94,Shoes,fashion,Screen display is sharp,1
+95,Shoes,fashion,Mobile camera quality,1
+96,Shoes,fashion,Laptop RAM is fast,1
+97,Shoes,fashion,TV sound is clear,1
+98,Shoes,fashion,Processor handles gaming,1
+99,Shoes,fashion,Display brightness is good,1
+100,Shoes,fashion,Electronics performance is smooth,1
